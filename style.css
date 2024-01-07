@@ -21,7 +21,7 @@ body{
 
 }
 nav{
-    color: blue;
+    color: rgb(19, 78, 7);
     padding: 10px;
     flex-direction: column;
 }
@@ -30,4 +30,37 @@ nav a {
     text-decoration: none;
     padding: 10px;
     margin-right: 10px;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .hero {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .about, .skills, .projects {
+    margin: 40px 0;
+  }
+  
+  .project-card {
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .project-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
   }
