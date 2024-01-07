@@ -1,0 +1,33 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aliceblue;
+    color: black;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    line-height: 1.6;
+    list-style: disc;
+    text-align: left;
+    font-weight: 800;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid;
+
+}
+nav{
+    color: blue;
+    padding: 10px;
+    flex-direction: column;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 10px;
+  }
